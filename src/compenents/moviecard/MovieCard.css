@@ -1,0 +1,23 @@
+
+.detail{
+    display: none;
+}
+.movie:hover .detail{
+    
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 70px;
+   
+    color: red
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.card-text{
+    margin-bottom: 8rem;
+}
